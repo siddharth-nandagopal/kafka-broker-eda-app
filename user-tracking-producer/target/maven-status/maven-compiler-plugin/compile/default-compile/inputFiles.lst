@@ -1,0 +1,10 @@
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/EventGenerator.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/UserTrackingProducerApplication.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/config/KakfaConfiguration.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/enums/Color.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/enums/DesignType.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/enums/ProductType.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/enums/UserId.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/model/Event.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/model/Product.java
+/Users/snandagopal/workspace/kkk-space/user-tracking-producer/src/main/java/com/kafka/producer/model/User.java
