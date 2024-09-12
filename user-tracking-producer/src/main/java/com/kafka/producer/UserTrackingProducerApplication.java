@@ -32,7 +32,7 @@ public class UserTrackingProducerApplication {
 
 	private static final String TOPIC = "user-tracking";
 
-	private static final String KAFKA_SERVER = "10.244.2.2:9092,10.244.3.2:9092,10.244.1.3:9092,10.244.2.2:29093,10.244.3.2:29093,10.244.1.3:29093";
+	private static final String KAFKA_SERVER = "kafka01:29192,kafka02:29292,kafka03:29392";
 
 	// @Autowired
     // private KafkaTemplate<String, User> kafkaTemplate;
@@ -47,9 +47,6 @@ public class UserTrackingProducerApplication {
 
         Properties props = new Properties();
 
-        // Because now we make use of the broker deployed on a docker container
-        // taken from the docker-compose.yml of
-        // https://github.com/confluentinc/cp-all-in-one/tree/7.2.1-post/cp-all-in-one-community
         // props.put("bootstrap.servers", "localhost:9093,localhost:9094");
         props.put("bootstrap.servers", KAFKA_SERVER);
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");

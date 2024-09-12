@@ -8,11 +8,11 @@
 		<version>3.3.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.kafka.producer</groupId>
-	<artifactId>user-tracking-producer</artifactId>
+	<groupId>com.kafka.consumer</groupId>
+	<artifactId>user-tracking-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user-tracking-producer</name>
-	<description>User tracking kafka producer</description>
+	<name>user-tracking-consumer</name>
+	<description>User tracking kafka consumer</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -43,12 +43,6 @@
 		</dependency>
 
 		<dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-
-		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -60,7 +54,7 @@
 			<type>pom</type>
 			<scope>test</scope>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

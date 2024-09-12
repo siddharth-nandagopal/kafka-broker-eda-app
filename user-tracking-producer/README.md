@@ -1,7 +1,14 @@
 
 # Getting Started
 
+Setup Local Registry:
 
+$ docker run -d -p 5000:5000 --restart=always --name registry registry:2
+
+Add entry to /etc/host
+#127.0.0.1 kafka01
+#127.0.0.1 kafka02
+#127.0.0.1 kafka03
 
 
 # Troubleshoot/Frequent issues
